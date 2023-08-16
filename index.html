@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Translator</title>
+
+    <!--------Font awesome------->
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!---------Stylesheets------->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/page.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea class="text_in" placeholder="Enter text"></textarea>
+                <textarea class="text_out" placeholder="Translate text" readonly disabled></textarea>
+            </div>
+            <ul class="icon_control">
+                <li class="rows from">
+                    <div class="icons">
+                        <i id="from" class="fas fa-volume-up"></i>
+                        <i id="from" class="fas fa-copy"></i>
+                    </div>
+                    <select></select>
+                </li>
+             <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+                <li class="rows to">
+                    <select ></select>
+                    <div class="icons">
+                        <i id="to" class="fas fa-volume-up"></i>
+                        <i id="to" class="fas fa-copy"></i>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+        <button>Translate Text</button>
+    </div>
+    <script src="./js/countries.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

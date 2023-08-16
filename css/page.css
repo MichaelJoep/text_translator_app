@@ -1,0 +1,100 @@
+@import url("./style.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ABeeZee";
+}
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(214, 206, 206);
+}
+.container {
+    width: 50%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 0px 2px 1px rgba(0,0,0,0.4);
+}
+.wrapper {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.wrapper .text-input .text_out {
+    border-left: 1px solid lightgray;
+    border-radius: 0;
+}
+.wrapper .text-input textarea {
+    height: 250px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;background: none;
+    resize: none;
+    border-radius: 5px;
+}
+
+.icon_control {
+    list-style: none;
+    padding: 12px 15px;
+}
+.icon_control, li, .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon_control .rows.from .icons {
+    padding-right: 15px;
+    border-right: 1px solid lightgray;
+}
+
+.icon_control .icons {
+    width: 50%;
+}
+.icon_control .rows.to .icons {
+    padding-left: 15px;
+    border-left: 1px solid lightgray;
+}
+
+.icon_control .icons i {
+    font-size: 14px;
+    color: #9f9f9f;
+    width: 30px;
+    cursor: pointer;
+    justify-content: center;
+}
+.icon_control .rows select {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    cursor: pointer;
+}
+.icon_control .exchange {
+    color: #9f9f9f;
+    cursor: pointer;
+    font-size: 16px;
+}
+.container button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #d3f0f5;
+    color: #9f9f9f;
+}
+

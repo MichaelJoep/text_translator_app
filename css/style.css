@@ -1,0 +1,30 @@
+/*importing fonts*/
+@font-face {
+    font-family: "ABeeZee-italic";
+    src: url("./fonts/ABeeZee-italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "ABeeZee";
+    src: url("./fonts/ABeeZee.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Abel";
+    src: url("./fonts/Abel.ttf");
+}
+@font-face {
+    font-family: "Abhaya-extrabold";
+    src: url("./fonts/Abhaya-extrabold.ttf");
+    font-weight: bolder;
+}
+@font-face {
+    font-family: "Abhaya-medium";
+    src: url("./fonts/Abhaya-medium.ttf");
+}
+@font-face {
+    font-family:"Abhaya-regular";
+    src: url("./fonts/Abhaya-regular.ttf");
+}
